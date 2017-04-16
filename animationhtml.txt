@@ -22,7 +22,8 @@
       var width = $( window ).width();
       var size = width + ',' + height;
       
-      var locations = [        
+      var locations = [     
+      {"src": },
         /*** EDIT THIS SECTION ***
  
         Put the links to your viz here, make sure to include the following url parameters
@@ -33,6 +34,7 @@
       
         {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2010"},            
 
+
         ** with add'l years **
 
         {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2011"},
@@ -40,8 +42,22 @@
         {"src": "https://public.tableausoftware.com/views/Animated-Map/map?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Year=2013"},
 
         */
-        {"src": ""},
-        
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/21/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/22/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/23/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/24/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/27/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/28/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/29/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=3/30/2017"},
+        {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/3/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/4/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/5/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/6/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/7/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/10/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/12/2017"},
+       {"src": "https://public.tableau.com/views/AlburySMSFWorkflow?:showVizHome=no&:embed=yes&:toolbar=no&:format=png&Date=4/13/2017"},       
                 ]
             
       $("#myGallery").attr('width',width);
